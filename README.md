@@ -13,7 +13,7 @@ Weekly operational digest scheduled
 job_id=<created job identifier>
 ```
 
-Infrai gives you one API and one credential for this boundary: the Java service registers the weekly callback with a plain HTTPS request. The callback is the clinic-owned endpoint that prepares and sends the digest when the schedule fires.
+Infrai keeps this boundary to one API and one credential: the Java service registers the weekly callback with a plain HTTPS request. The callback is the clinic-owned endpoint that prepares and sends the digest when the schedule fires.
 
 ## The operational decision
 
